@@ -1,22 +1,30 @@
 日本語化
 
-edit config/settings/common.py
+1. edit config/settings/common.py
 ############## add or change ##############
 from django.utils.translation import gettext_lazy as _
+
 USE_I18N = True
+
 LANGUAGES = [
     ('ja', _('Japanese')),
 ]
+
 LOCALE_PATHS = (
     str(APPS_DIR.path("locale")),
 )
 #################################
 
+2. make messages file (.po)
+mkdir socialhome/locale
 python manage.py makemessages -l ja --no-location
-edit socialhome/socialhome/locale/ja/LC_MESSAGES/django.po
+
+3. edit socialhome/socialhome/locale/ja/LC_MESSAGES/django.po
+
+4. compile messages file (.mo)
 python manage.py compilemessages
 
-restart socialhome !! default browser language !!
+5. restart socialhome !!!
 
 [![](https://img.shields.io/badge/docker-image-yellow)](https://git.feneas.org/socialhome/socialhome/container_registry)  [![pipeline status](https://git.feneas.org/socialhome/socialhome/badges/master/pipeline.svg)](https://git.feneas.org/socialhome/socialhome/commits/master) [![codecov](https://codecov.io/gh/jaywink/socialhome/branch/master/graph/badge.svg)](https://codecov.io/gh/jaywink/socialhome) [![](https://img.shields.io/badge/license-AGPLv3-green.svg)](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)
 
