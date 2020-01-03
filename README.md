@@ -1,3 +1,23 @@
+日本語化
+
+edit config/settings/common.py
+############## add or change ##############
+from django.utils.translation import gettext_lazy as _
+USE_I18N = True
+LANGUAGES = [
+    ('ja', _('Japanese')),
+]
+LOCALE_PATHS = (
+    str(APPS_DIR.path("locale")),
+)
+#################################
+
+python manage.py makemessages -l ja --no-location
+edit socialhome/socialhome/locale/ja/LC_MESSAGES/django.po
+python manage.py compilemessages
+
+restart socialhome !! default browser language !!
+
 [![](https://img.shields.io/badge/docker-image-yellow)](https://git.feneas.org/socialhome/socialhome/container_registry)  [![pipeline status](https://git.feneas.org/socialhome/socialhome/badges/master/pipeline.svg)](https://git.feneas.org/socialhome/socialhome/commits/master) [![codecov](https://codecov.io/gh/jaywink/socialhome/branch/master/graph/badge.svg)](https://codecov.io/gh/jaywink/socialhome) [![](https://img.shields.io/badge/license-AGPLv3-green.svg)](https://tldrlegal.com/license/gnu-affero-general-public-license-v3-(agpl-3.0)
 
 [![Documentation](http://readthedocs.org/projects/socialhome/badge/?version=latest)](http://socialhome.readthedocs.io/en/latest/?badge=latest) [![chat on matrix](https://img.shields.io/matrix/socialhome:matrix.org.svg)](https://matrix.to/#/#socialhome:feneas.org) [![issue tracker](https://img.shields.io/badge/issue%20tracker-gitlab-yellow.svg)](https://git.feneas.org/socialhome/socialhome/issues)
