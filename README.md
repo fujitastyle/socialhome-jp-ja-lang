@@ -1,7 +1,7 @@
 日本語化
 
 1. edit config/settings/common.py
-############## add or change ##############
+///////////////add or change////////////////////////////////////
 from django.utils.translation import gettext_lazy as _
 
 USE_I18N = True
@@ -13,7 +13,7 @@ LANGUAGES = [
 LOCALE_PATHS = (
     str(APPS_DIR.path("locale")),
 )
-#################################
+////////////////////////////////////////////////////////////////
 
 2. make messages file (.po)
 mkdir socialhome/locale
