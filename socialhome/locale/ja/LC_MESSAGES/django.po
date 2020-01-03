@@ -1,0 +1,855 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-23 22:58+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Japanese"
+msgstr "日本語"
+
+msgid "English"
+msgstr "English"
+
+msgid "Choose policy document types to send emails about first!"
+msgstr "はじめにメールを送信するためのポリシードキュメントタイプを選択してください"
+
+msgid "Policy document update emails queued for sending."
+msgstr "送信待ちメールのポリシードキュメントを更新"
+
+msgid "Send email update to all users"
+msgstr "すべてのユーザーに更新メールを送信"
+
+msgid "Content"
+msgstr "コンテンツ"
+
+msgid "Reply"
+msgstr "リプライ"
+
+msgid "Share"
+msgstr "シェア"
+
+msgid "Recipients"
+msgstr "受信者"
+
+msgid "Recipients cannot be empty if not including followed users."
+msgstr "フォローしているユーザーを含めない場合、受信者を空にすることはできません"
+
+#, python-format
+msgid "Recipient %s is not in the correct format."
+msgstr "受信者%sの形式が正しくありません。"
+
+msgid "Not all recipients could be found."
+msgstr "すべての受信者が見つかりませんでした"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Image URL"
+msgstr "Image URL"
+
+msgid "Modified"
+msgstr "修正済"
+
+msgid "OEmbed HTML content"
+msgstr "OEmbed HTMLコンテンツ"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Created"
+msgstr "作成済"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "GUID"
+msgstr "GUID"
+
+msgid "Author"
+msgstr "著者"
+
+msgid "Federation ID"
+msgstr "Federation ID"
+
+msgid "Pinned to profile"
+msgstr "プロフィールに固定"
+
+msgid "Order"
+msgstr "オーダー"
+
+msgid "Service label"
+msgstr "サービスラベル"
+
+msgid "Show OEmbed or OpenGraph preview"
+msgstr "OEmbedまたはOpenGraphで表示"
+
+msgid ""
+"Disable to turn off fetching and showing an OEmbed or OpenGraph preview "
+"using the links in the text."
+msgstr "テキスト内のリンクを使用して、OEmbedまたはOpenGraphの取得と表示をオフにすることを無効にします。"
+
+msgid "OEmbed cache"
+msgstr "OEmbedキャッシュ"
+
+msgid "OpenGraph cache"
+msgstr "OpenGraphキャッシュ"
+
+msgid "Mentions"
+msgstr "メンション"
+
+msgid "Tags"
+msgstr "タグ"
+
+msgid "Parent"
+msgstr ""
+
+msgid "Share of"
+msgstr ""
+
+msgid "Federate to remote servers"
+msgstr "他のサーバーに共有する"
+
+msgid ""
+"Disable to skip federating this version to remote servers. Note, saved "
+"content version will still be updated to local streams."
+msgstr ""
+"このバージョンをリモートサーバーに統合することをスキップすることを無効にします"
+"保存されたコンテンツのバージョンは、引き続きローカルストリームに更新されます。"
+
+msgid "Limitied visibilities"
+msgstr ""
+
+msgid "Include people I follow"
+msgstr ""
+
+msgid "Automatically includes all the people you follow as recipients."
+msgstr ""
+
+msgid "Remote created"
+msgstr ""
+
+msgid "Local"
+msgstr "ローカル"
+
+msgid "Rendered text"
+msgstr ""
+
+msgid "Reply count"
+msgstr ""
+
+msgid "Shares count"
+msgstr ""
+
+msgid "Root parent"
+msgstr ""
+
+msgid "Use new publisher"
+msgstr ""
+
+msgid ""
+"Set this to use the new alpha publisher when possible. Warning! Not all "
+"functionality is available in the new publisher."
+msgstr ""
+
+msgid ""
+"You can upload images using the camera icon or by dragging them to the text "
+"area. Valid file types: png/jpg/svg/gif."
+msgstr "カメラアイコンをタップするか、テキスト領域にドラッグすることで画像をアップロードできます　有効な画像タイプ:png/jpg/svg/gif"
+
+msgid ""
+"Type in the handles (eg user@example.com) of the recipients. Separate by "
+"commas. Sorry, no search yet.."
+msgstr ""
+
+msgid ""
+"Public - visible to anyone, even anonymous users and internet search bots."
+msgstr "パブリック - 誰でも閲覧できます。匿名ユーザーやインターネット検索ボットにも表示されます"
+
+msgid "Limited - visible to only those who shared with."
+msgstr "限定 - 共有者のみに表示されます"
+
+msgid ""
+"Site - visible to only users who are logged in. Does not federate to other "
+"servers."
+msgstr "サイト - ログインしているユーザーにのみ表示されます。他のサーバーに共有しません"
+
+msgid "Self - visible to only self. Does not federate to other servers."
+msgstr "セルフ - 自分のみに表示されます。他のサーバーに共有しません"
+
+msgid ""
+"Tip: You can use the 'Self' visibility to create draft content and then "
+"change the visibility to for example 'Public' when you want to publish it."
+msgstr "ヒント:「セルフ」を使用して下書きを作成し、公開するときに「パブリック」などに変更できます。"
+
+msgid ""
+"Pinned content will be shown on your personal profile in the order you want. "
+"Reorder pinned content from the profile menu. Pinned content will federate "
+"and otherwise function as any other content."
+msgstr ""
+"固定されたコンテンツは、個人のプロファイルに希望する順序で表示されます。"
+"固定されたコンテンツをプロファイルメニューから並べ替えます。"
+"固定されたコンテンツは他のサーバーに共有され、その他の方法で他のコンテンツとして機能します。"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Update reply"
+msgstr "リプライ更新"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Create"
+msgstr "投稿"
+
+msgid "Confirm delete"
+msgstr ""
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Tip! Share pages easily by bookmarking our"
+msgstr ""
+
+msgid "bookmarklet"
+msgstr ""
+
+msgid "Terms of service"
+msgstr ""
+
+msgid "Privacy policy"
+msgstr ""
+
+msgid "Public"
+msgstr "パブリック"
+
+msgid "Limited"
+msgstr "限定"
+
+msgid "Site"
+msgstr "サイト"
+
+msgid "Self"
+msgstr "セルフ"
+
+#, python-format
+msgid "New follower: %s"
+msgstr ""
+
+msgid "You have been mentioned"
+msgstr ""
+
+#, python-format
+msgid "New reply to: %s"
+msgstr ""
+
+#, python-format
+msgid "New share of: %s"
+msgstr ""
+
+msgid "Data export is ready for download"
+msgstr ""
+
+msgid "Important updates to our Terms of Service and Privacy Policy documents"
+msgstr ""
+
+msgid "Important updates to our Privacy Policy document"
+msgstr ""
+
+msgid "Important updates to our Terms of Service document"
+msgstr ""
+
+msgid "Dear"
+msgstr ""
+
+msgid "Wishing you a nice day"
+msgstr ""
+
+#, python-format
+msgid "The friendly %(site_name)s notifications robot"
+msgstr ""
+
+msgid "Your data export is ready for download."
+msgstr ""
+
+msgid "Download here"
+msgstr ""
+
+msgid "Your data export is ready for download:"
+msgstr ""
+
+msgid "You have a new follower:"
+msgstr ""
+
+msgid "You have been mentioned by"
+msgstr ""
+
+msgid "Link to the content:"
+msgstr ""
+
+msgid "The changes have become effective at"
+msgstr ""
+
+msgid "Please find the updated Terms of Service document"
+msgstr ""
+
+msgid "here"
+msgstr ""
+
+msgid "Please find the updated Privacy Policy document"
+msgstr ""
+
+msgid ""
+"No actions are required by you. By continuing to use the service you accept "
+"the new document(s)."
+msgstr ""
+
+msgid "Please find the updated Terms of Service document at"
+msgstr ""
+
+msgid "Please find the updated Privacy Policy document at"
+msgstr ""
+
+msgid "There is a new reply to content you have participated in by"
+msgstr ""
+
+msgid "React to the reply here:"
+msgstr ""
+
+msgid "Your content has received a new share by"
+msgstr ""
+
+msgid "Log all receive payloads"
+msgstr ""
+
+msgid ""
+"If set to true, all received payloads will be written at DEBUG level to app "
+"logfile and model federate.Payload (available in the admin). This is a "
+"performance hit so should only be turned on for temporary debugging."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search term"
+msgstr ""
+
+msgid "Type a search term"
+msgstr ""
+
+msgid "Profiles"
+msgstr ""
+
+msgid "Unfollow"
+msgstr ""
+
+msgid "Follow"
+msgstr ""
+
+msgid "No results found."
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "There are more tags results. Please refine the query."
+msgstr ""
+
+msgid "Search string is invalid, please try another one."
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Followed"
+msgstr "フォロー済"
+
+msgid "Profile (all)"
+msgstr ""
+
+msgid "Profile (pinned)"
+msgstr ""
+
+msgid "Tag"
+msgstr ""
+
+msgid "A federated social home."
+msgstr ""
+
+msgid "Limited stream"
+msgstr ""
+
+msgid "Contains non-public content where you are recipient."
+msgstr ""
+
+msgid "Local stream"
+msgstr "ローカルストリーム"
+
+msgid "Contains content from local users."
+msgstr "ローカルユーザーのコンテンツを含まれています"
+
+msgid "Public stream"
+msgstr "パブリックストリーム"
+
+msgid "Contains public content from around the network."
+msgstr "ネットワーク全体の公開コンテンツが含まれています"
+
+#, python-format
+msgid "#%s stream"
+msgstr ""
+
+#, python-format
+msgid "All content tagged with #%s."
+msgstr ""
+
+msgid "Followed tags stream"
+msgstr ""
+
+msgid "Content from followed tags."
+msgstr ""
+
+msgid "Followed stream"
+msgstr "フォロー済ストリーム"
+
+msgid "Content from followed users."
+msgstr "フォローしたユーザーのコンテンツ"
+
+msgid "Account"
+msgstr "アカウント"
+
+msgid "E-mail Addresses"
+msgstr "メールアドレス"
+
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+msgid "Verified"
+msgstr "検証済"
+
+msgid "Unverified"
+msgstr "未検証"
+
+msgid "Primary"
+msgstr ""
+
+msgid "Make Primary"
+msgstr ""
+
+msgid "Re-send Verification"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+msgid "Add E-mail Address"
+msgstr ""
+
+msgid "Add E-mail"
+msgstr ""
+
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#, python-format
+msgid ""
+"You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-"
+"mail address for user %(user_display)s."
+msgstr ""
+
+msgid "Sign In"
+msgstr ""
+
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"      of your existing third party accounts. Or, <a href=\"%(signup_url)s"
+"\">sign up</a>\n"
+"      for a %(site_name)s account and sign in below:"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Forgot Password?"
+msgstr ""
+
+msgid "Sign Out"
+msgstr ""
+
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Password Reset"
+msgstr ""
+
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+msgid "Reset My Password"
+msgstr ""
+
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+msgid "Bad Token"
+msgstr ""
+
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+msgid "change password"
+msgstr ""
+
+msgid "Your password is now changed."
+msgstr ""
+
+msgid "Set Password"
+msgstr ""
+
+msgid "Signup"
+msgstr "ユーザー登録"
+
+msgid "Sign Up"
+msgstr "ユーザー登録"
+
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+msgid "Sign Up Closed"
+msgstr ""
+
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#, python-format
+msgid ""
+"We have sent an e-mail to <a href=\"mailto:%(email)s\">%(email)s</a> for "
+"verification. Follow the link provided to finalize the signup process. "
+"Please contact us if you do not receive it within a few minutes."
+msgstr ""
+
+msgid ""
+"This part of the site requires us to verify that\n"
+"        you are who you claim to be. For this purpose, we require that you\n"
+"        verify ownership of your e-mail address. "
+msgstr ""
+
+msgid ""
+"We have sent an e-mail to you for\n"
+"        verification. Please click on the link inside this e-mail. Please\n"
+"        contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+msgid "Streams"
+msgstr "ストリーム"
+
+msgid "My content"
+msgstr "マイコンテンツ"
+
+msgid "Contacts"
+msgstr "コンタクト"
+
+msgid "My Profile"
+msgstr "マイプロフィール"
+
+msgid "Log In"
+msgstr "ログイン"
+
+msgid "Menu"
+msgstr "メニュー"
+
+msgid "API token"
+msgstr ""
+
+msgid "Emails"
+msgstr "メール"
+
+msgid "Admin"
+msgstr "管理者"
+
+msgid "Task queue"
+msgstr "タスクキュー"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Preferences"
+msgstr "設定"
+
+msgid "Export data"
+msgstr ""
+
+msgid "Download export"
+msgstr ""
+
+msgid "created"
+msgstr "作成済"
+
+msgid "Request new export"
+msgstr ""
+
+msgid "Back to profile"
+msgstr "プロフィールに戻る"
+
+msgid "Export request failed. Please try again later or contact the admin."
+msgstr ""
+
+msgid ""
+"Export has been requested. You will receive an email when it is ready for "
+"download."
+msgstr ""
+
+msgid "The export can also be downloaded from this page when it is ready."
+msgstr ""
+
+msgid "Session Login"
+msgstr ""
+
+msgid "You are logged in as: "
+msgstr ""
+
+msgid "Viewing as an anoymous user"
+msgstr ""
+
+msgid "Powered by "
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Name of User"
+msgstr ""
+
+msgid "Trusted editor"
+msgstr ""
+
+msgid "Picture"
+msgstr ""
+
+msgid "Picture height"
+msgstr ""
+
+msgid "Picture width"
+msgstr ""
+
+msgid "email address"
+msgstr ""
+
+msgid "Handle"
+msgstr ""
+
+msgid "RSA private key"
+msgstr ""
+
+msgid "RSA public key"
+msgstr ""
+
+msgid "Profile visibility"
+msgstr ""
+
+msgid "Image - large"
+msgstr "画像 - 大"
+
+msgid "Image - medium"
+msgstr "画像 - 中"
+
+msgid "Image - small"
+msgstr "画像 - 小"
+
+msgid "Location"
+msgstr "場所"
+
+msgid "NSFW"
+msgstr ""
+
+msgid "Should users content be considered NSFW?"
+msgstr ""
+
+msgid "Following"
+msgstr ""
+
+msgid "Followed tags"
+msgstr ""
+
+msgid "Private inbox"
+msgstr "プライベートinbox"
+
+msgid "Public inbox"
+msgstr "パブリックinbox"
+
+msgid "Protocol"
+msgstr "プロトコル"
+
+msgid "Profile"
+msgstr "プロフィール"
+
+msgid "Profile - all content"
+msgstr "プロフィール - 全てのコンテンツ"
+
+msgid "Tags stream"
+msgstr ""
+
+msgid "Landing page"
+msgstr "ランディングページ"
+
+msgid "Choose which page you want to see as the landing page."
+msgstr "ランディングページとして表示するページを選択します"
+
+msgid "Organize content"
+msgstr ""
+
+msgid "Save order"
+msgstr ""
+
+msgid ""
+"Copy the token to a client or tool which you want to use for interacting "
+"with your Socialhome account."
+msgstr ""
+
+msgid ""
+"Important! Do not give anyone access to the token or they will be able to "
+"use your account through client apps! If you lose your token or need a new "
+"one, click 'Regenerate'."
+msgstr ""
+
+msgid "Regenerate"
+msgstr ""
+
+msgid "Return to profile"
+msgstr ""
+
+msgid "Delete account 😯"
+msgstr ""
+
+msgid "Are you completely sure? This cannot be undone..."
+msgstr ""
+
+msgid ""
+"\n"
+"            Hey! Please note that if you <i>do</i> go ahead with this, might "
+"we say, drastic action, we will of course\n"
+"            delete any content you have created on <i>this server</i>. "
+"Additionally, we will try to delete the content\n"
+"            that <i>this server</i> has sent to <i>other servers</i> as "
+"requested by <i>you</i>. These servers are owned\n"
+"            by other people (decentralization <3). If these other servers "
+"choose to ignore the delete request or they\n"
+"            happen to have technical difficulties in deleting the content as "
+"requested by us, please contact the\n"
+"            administrators of the other servers. Thanks <3\n"
+"        "
+msgstr ""
+
+msgid "Nah, take me back!"
+msgstr ""
+
+msgid "I'm leaving, bye"
+msgstr ""
+
+msgid "Change profile picture"
+msgstr ""
+
+msgid "Uploading a new picture"
+msgstr ""
+
+msgid ""
+"Click the file browse button and choose an image file from your computer. "
+"Click 'Save'."
+msgstr ""
+
+msgid "Cropping an existing picture"
+msgstr ""
+
+msgid ""
+"Profile pictures are square shaped. If your picture is not square shaped, "
+"you can choose a 'point of interest' by clicking the full image preview on "
+"the right. Click on the center point you would like your profile picture be "
+"around, then click 'Save'."
+msgstr ""
+
+#, python-format
+msgid "Profile of %s."
+msgstr ""
+
+msgid "Contacts - following"
+msgstr ""
+
+msgid "Contacts - followers"
+msgstr ""
