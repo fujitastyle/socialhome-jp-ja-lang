@@ -9,6 +9,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
 from datetime import datetime
+from django.utils.translation import gettext_lazy as _
 
 import environ
 import os
@@ -143,7 +144,8 @@ DATABASES["default"]["ATOMIC_REQUESTS"] = True
 TIME_ZONE = env("DJANGO_TIMEZONE", default="UTC")
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
-LANGUAGE_CODE = "en-us"
+#LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "ja"
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#site-id
 SITE_ID = 1
@@ -156,6 +158,15 @@ USE_L10N = True
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#use-tz
 USE_TZ = True
+
+# django translation
+LANGUAGES = [
+    ('ja', _('Japanese')),
+#    ('en', _('English')),
+]
+LOCALE_PATHS = (
+    str(APPS_DIR.path("locale")),
+)
 
 # TEMPLATE CONFIGURATION
 # ------------------------------------------------------------------------------
